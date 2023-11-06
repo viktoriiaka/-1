@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ulubiony Wykonawca</title>
+</head>
+<body>
+    <header>
+        <h1>Mój Ulubiony Wykonawca</h1>
+    </header>
+    <section id="videos">
+        <h2>Filmy</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=fJLQCf4mFP0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=qU9mHegkTc4" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section id="audio">
+        <h2>Audio</h2>
+        <audio controls autoplay>
+            <source src="nazwa_twojego_pliku_audio.mp3" type="audio/mp3">
+            Przeglądarka nie obsługuje elementu audio.
+        </audio>
+    </section>
+</body>
+</html>
